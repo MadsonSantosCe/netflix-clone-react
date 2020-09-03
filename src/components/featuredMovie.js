@@ -10,8 +10,8 @@ export default ({item}) => {
     }
 
     let description = item.overview;
-    if(description.length > 200){
-        description = description.substring(0, 200) + '...';
+    if(description.length > 300){
+        description = description.substring(0, 300) + '...';
     }
 
     return (

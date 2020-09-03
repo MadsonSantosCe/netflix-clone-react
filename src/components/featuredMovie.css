@@ -90,3 +90,28 @@
     font-size: 18px;
     color: #999;
 }
+
+@media (max-width:760px){
+    .featured_name{
+        font-size: 14px;
+    }
+
+    .featured_info{
+        font-size: 18px;
+    }
+
+    .featured_description{
+        font-size: 14px;
+        max-width: 100%;
+        margin-right: 30px;
+    }
+
+    .featured_watchButton,
+    .featured_mylistButton {
+        font-size: 16px;
+    }
+
+    .featured_genres{
+        font-size: 14px;
+    }
+}
