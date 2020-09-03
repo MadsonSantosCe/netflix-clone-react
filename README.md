@@ -6,4 +6,4 @@ Clone da página do Netflix ministrado durante a live do [Bonieky Lacerda](https
 - Material-ui
 
 ## Imagem final do projeto
-![https://i.imgur.com/yaodc6V.png]
+![](https://i.imgur.com/JaI65z6.png)
