@@ -62,7 +62,13 @@ export default () => {
           Direitos de imagem para Netflix<br />
           Dados extraidos do site Themoviedb.org<br />
           Toda honra e toda glória seja dada a Deus<br />
-      </footer>    
+      </footer>
+
+      {movieList.length <=  0 &&
+        <div className="loading">
+          <img src="https://notresponding.net/wp-content/uploads/2018/01/Netflix_LoadTime.gif" className="carregando" alt="loading"/>
+        </div>
+      }      
 
     </div>
   );
